@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon-librando.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlowLibrando - Tecnologia Assistiva UDESC CCT</title>
+    <meta name="description" content="Sistema de reconhecimento de fala para tradução em Libras em tempo real. Desenvolvido pela UDESC CCT seguindo normas de acessibilidade WCAG 2.1.">
+    <meta name="author" content="UDESC CCT" />
+    <meta name="keywords" content="Libras, tecnologia assistiva, acessibilidade, reconhecimento de fala, UDESC, inclusão digital">
+
+    <meta property="og:title" content="FlowLibrando - Tecnologia Assistiva UDESC" />
+    <meta property="og:description" content="Sistema de reconhecimento de fala para tradução em Libras em tempo real. Desenvolvido pela UDESC CCT seguindo normas de acessibilidade WCAG 2.1." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/aT0YjWonYkeF3Bxm13a1LX7aNM73/social-images/social-1757683893762-Gemini_Generated_Image_1h89ue1h89ue1h89.png">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@udesc_oficial" />
+    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/aT0YjWonYkeF3Bxm13a1LX7aNM73/social-images/social-1757683893762-Gemini_Generated_Image_1h89ue1h89ue1h89.png">
+
+    <!-- Preconnect para melhor performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonte otimizada para legibilidade -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- VLibras Widget Oficial -->
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Inicialização do VLibras -->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </body>
+</html>
