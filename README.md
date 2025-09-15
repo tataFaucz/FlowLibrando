@@ -1,6 +1,6 @@
 # FlowLibrando
 
-FlowLibrando é uma plataforma de leitura e navegação assistiva desenvolvida por estudantes do Projeto de Extensão Assistiva da UDESC CCT. O projeto visa promover a inclusão digital de pessoas com deficiência visual, oferecendo uma interface acessível e recursos de leitura adaptados às suas necessidades.
+FlowLibrando é uma plataforma de leitura e navegação assistiva desenvolvida por estudantes do Projeto de Extensão Assistiva da UDESC CCT. O projeto visa promover a inclusão digital de pessoas com deficiência auditiva, oferecendo uma interface acessível e recursos de leitura adaptados às suas necessidades.
 
 ## 🚀 Tecnologias Utilizadas
 
